@@ -13,16 +13,16 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "29996160"))
+APP_ID = int(os.environ.get("APP_ID", "14656169"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "55305b23a72c1e001a0fb21b7bfe0785")
+API_HASH = os.environ.get("API_HASH", "a2d5b45af5a62c674591e4eeeddc96d9")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002014585511"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002184478807"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5089010547"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7091428204"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -37,7 +37,7 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "𝗛𝗶𝗶 {first}\n𝗚𝗲𝘁 𝗥𝗲𝗮𝗱𝘆 💪🏻🍌🤤 \n\n𝗣𝗿𝗲𝘀𝘀 𝗦𝗧𝗔𝗥𝗧 𝗮𝗻𝗱 𝗴𝗲𝘁 𝘆𝗼𝘂𝗿 𝗩𝗶𝗱𝗲𝗼 👀\n\n𝗪𝗵𝗮𝘁 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵 🤔😏👉🏻 @linkyaar \n\nQueries/Promotion - @linkyaarbot")
+START_MSG = os.environ.get("START_MESSAGE", "𝗛𝗶𝗶 {first}\n𝗚𝗲𝘁 𝗥𝗲𝗮𝗱𝘆 💪🏻🍌🤤 \n\n𝗣𝗿𝗲𝘀𝘀 𝗦𝗧𝗔𝗥𝗧 𝗮𝗻𝗱 𝗴𝗲𝘁 𝘆𝗼𝘂𝗿 𝗩𝗶𝗱𝗲𝗼 👀\n\n𝗪𝗵𝗮𝘁 𝘁𝗼 𝘄𝗮𝘁𝗰𝗵 🤔😏👉🏻 @yaarlink \n\nQueries/Promotion - @linkyaarbot")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌ Do not send any message here\ni cant reply here... 👄 \n\nGet your videos here  👉🏻@linkyaar \n\n Queries/Promotion - @linkyaarbot"
+USER_REPLY_TEXT = "❌ Do not send any message here\ni cant reply here... 👄 \n\nGet your videos here  👉🏻@yaarlink \n\n Queries/Promotion - @linkyaarbot"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
